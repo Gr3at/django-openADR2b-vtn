@@ -3,6 +3,9 @@ from .views import EiRegisterPartyView
 
 
 urlpatterns = [
-    path("EiRegisterParty/", EiRegisterPartyView.as_view(), name="EiRegisterParty_url_path"),
-    
+    path(
+        "EiRegisterParty/",
+        EiRegisterPartyView.as_view(),
+        name="EiRegisterParty_url_path",
+    ),
 ]

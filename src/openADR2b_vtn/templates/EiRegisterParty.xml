@@ -8,12 +8,12 @@
                 <ei:responseCode>200</ei:responseCode>
                 <ei:responseDescription>OK</ei:responseDescription>
                 <requestID xmlns="http://docs.oasis-open.org/ns/energyinterop/201110/payloads">
-                    407a59fc-b146-46d5-8a3f-d121f7abe498
+                    {{requestID}}
                 </requestID>
             </ei:eiResponse>
-            <ei:registrationID>reg_id_001</ei:registrationID>
-            <ei:venID>ven_id_001</ei:venID>
-            <ei:vtnID>test_vtn</ei:vtnID>
+            <ei:registrationID>{{registrationID}}</ei:registrationID>
+            <ei:venID>{{venID}}</ei:venID>
+            <ei:vtnID>{{vtnID}}</ei:vtnID>
             <oadr:oadrProfiles>
                 <oadr:oadrProfile>
                     <oadr:oadrProfileName>2.0b</oadr:oadrProfileName>
