@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "core"
+version = "0.1.0"
+description = ""
+authors = ["Gr3at <gr3atdk@gmail.com>"]
+readme = "README.md"
+# packages = [{ include = "src" }]
+
+
+[tool.poetry.scripts]
+make = 'scripts.poetry_scripts:django_makemigrations_and_migrate'
+serve = 'scripts.poetry_scripts:django_runserver'
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^5.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

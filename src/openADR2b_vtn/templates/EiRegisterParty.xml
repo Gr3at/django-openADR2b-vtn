@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<oadr:oadrPayload xmlns:oadr="http://openadr.org/oadr-2.0b/2012/07">
+    <oadr:oadrSignedObject xmlns:oadr="http://openadr.org/oadr-2.0b/2012/07"
+        oadr:Id="oadrSignedObject">
+        <oadr:oadrCreatedPartyRegistration ei:schemaVersion="2.0b"
+            xmlns:ei="http://docs.oasis-open.org/ns/energyinterop/201110">
+            <ei:eiResponse>
+                <ei:responseCode>200</ei:responseCode>
+                <ei:responseDescription>OK</ei:responseDescription>
+                <requestID xmlns="http://docs.oasis-open.org/ns/energyinterop/201110/payloads">
+                    407a59fc-b146-46d5-8a3f-d121f7abe498
+                </requestID>
+            </ei:eiResponse>
+            <ei:registrationID>reg_id_001</ei:registrationID>
+            <ei:venID>ven_id_001</ei:venID>
+            <ei:vtnID>test_vtn</ei:vtnID>
+            <oadr:oadrProfiles>
+                <oadr:oadrProfile>
+                    <oadr:oadrProfileName>2.0b</oadr:oadrProfileName>
+                    <oadr:oadrTransports>
+                        <oadr:oadrTransport>
+                            <oadr:oadrTransportName>simpleHttp</oadr:oadrTransportName>
+                        </oadr:oadrTransport>
+                    </oadr:oadrTransports>
+                </oadr:oadrProfile>
+            </oadr:oadrProfiles>
+            <oadr:oadrRequestedOadrPollFreq>
+                <duration xmlns="urn:ietf:params:xml:ns:icalendar-2.0">PT10S</duration>
+            </oadr:oadrRequestedOadrPollFreq>
+        </oadr:oadrCreatedPartyRegistration>
+    </oadr:oadrSignedObject>
+</oadr:oadrPayload>
