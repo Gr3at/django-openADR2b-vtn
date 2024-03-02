@@ -9,6 +9,7 @@ readme = "README.md"
 [tool.poetry.scripts]
 make = 'scripts.poetry_scripts:django_makemigrations_and_migrate'
 serve = 'scripts.poetry_scripts:django_runserver'
+test = 'scripts.poetry_scripts:django_test'
 
 
 [tool.poetry.dependencies]
